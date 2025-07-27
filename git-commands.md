@@ -67,3 +67,8 @@ Moves HEAD back to before the <commit>
 # git reset [options] <commit>
 Moves HEAD to a previous commit, effective undoing work in the previous commits
 after the <commit>.
+
+# git blame <file>
+git blame reports the commit history and thus who did what for a file. You can
+also use git blame -L <line number, line number> <file> to restrict the output
+to particular lines in a file.
